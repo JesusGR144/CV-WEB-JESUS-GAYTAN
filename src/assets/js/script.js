@@ -2,34 +2,37 @@ const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".link-nav");
 const all = document.querySelectorAll('.all');
 
-
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       const id = entry.target.id;
       const link = document.querySelector(`.link-nav[href="#${id}"]`);
 
-
       if (entry.isIntersecting) {
         link.classList.add("animate");
+        
         all.forEach((border) => {
           setTimeout(() => {
             border.classList.add("animate-border");
-          }, 3000);
+          }, 500);
         });
 
       } else {
         link.classList.remove("animate");
-        border.classList.remove("animate-border");
+        
+        all.forEach((border) => {
+          border.classList.remove("animate-border");
+        });
       }
     });
   },
   {
-    threshold: 0.6, // 60% visible activa el efecto
+    threshold: 0.6,
   }
 );
 
 sections.forEach((section) => observer.observe(section));
+
 
 const btnProject = document.querySelectorAll('.bt');
 const linkProject = document.querySelectorAll('.link');
