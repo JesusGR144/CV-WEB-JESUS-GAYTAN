@@ -19,10 +19,8 @@ function Navbar() {
         <div id="hs-navbar-alignment" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2" aria-labelledby="hs-navbar-alignment-collapse">
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
             <LinkH text="Inicio" link="#home" />
-            <LinkH text="Sobre mí" link="#about" />
-            <LinkH text="Educación" link="#education" />
-            <LinkH text="Experiencia" link="#experience" />
-            <LinkH text="Habilidades" link="#skills" />
+            <LinkH text="Sobre mí" link="#about" />            
+            <LinkH text="Experiencia" link="#experience" />            
             <LinkH text="Proyectos" link="#projects" />
           </div>
         </div>

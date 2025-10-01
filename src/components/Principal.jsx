@@ -1,12 +1,12 @@
 import Section from "./Section";
 import Navbar from "./Navbar";
+import View from "./View";
 
 function Principal() {
   return (
     <>
       <Navbar />
       <main className="carousel rounded-box w-full h-dvh max-md:h-[95dvh]">
-     
         <Section id="home">
           <div className="mask-[url(/assets/svg/perfil.svg#perfil)] mask-position-[center_top] mask-no-repeat mask-size-[contain] bg-[url(/assets/img/yo.webp)] bg-cover bg-[center_-20%] bg-no-repeat aspect-square w-full max-w-[80dvh] h-[80dvh]  max-xl:max-w-[50dvh] max-xl:h-[50dvh] max-md:max-w-[40dvh] max-md:h-[40dvh] max-md:self-center"></div>
           <div className="max-md:mt-4">
@@ -59,33 +59,76 @@ function Principal() {
         </Section>
 
         <Section id="about">
-          <div className="flex w-[90%] flex-col md:flex-row *:p-[5%] max-md:justify-center">
-        <div className="custom-card all max-md:max-h-[35dvh] max-md:overflow-auto">
-          <h2 className="">Personal</h2>
-          <p className="text-center">Desde pequeño sentí curiosidad por la tecnología, pasando horas explorando y aprendiendo. 
-            Disfruto crear, desde código hasta diseños que se plasman en playeras personalizadas. Me definen la constancia, 
-            la responsabilidad y una mentalidad orientada a soluciones. Creo en avanzar paso a paso, con realismo y sin perder el impulso creativo. 
-            Me gusta automatizar, conectar ideas y aprender resolviendo mis propios retos.</p>
-        </div>
-        <div className="divider divider-info lg:divider-horizontal">Sobre mí</div>
-        <div className="custom-card all max-md:max-h-[35dvh] max-md:overflow-auto">
-          <h2 className="">Profesional</h2>
-          <p className="text-center">Ingeniero en Sistemas Computacionales especializado en desarrollo web
-            frontend. Me apasiona crear interfaces funcionales y bien estructuradas, fusionando desarrollo con diseño.
-            Ante cada desafío, investigo exhaustivamente para implementar las mejores soluciones. Mi compromiso con el
-            aprendizaje continuo me permite mantenerme actualizado en una industria en constante evolución.</p>
-        </div>
-      </div>
+          <View
+            title="Sobre mí"
+            cont={
+              <p>
+                Ingeniero en Sistemas con background en Java y en transición a
+                React para el desarrollo Front-End. Me defino como un
+                profesional curioso y constante, con gran interés en la
+                maquetación y la responsividad. Me encanta tomar un reto,
+                observarlo y construir la solución.
+              </p>
+            }
+          />
         </Section>
-        <Section id="education">
-          <h1 className="m-auto text-center text-cyan-50">Education</h1>
-        </Section>
+
         <Section id="experience">
-          <h1 className="m-auto text-center text-cyan-50">Experience</h1>
+          <View
+            title="Experiencia"
+            cont={
+              <>
+                <div className="collapse bg-base-100 border border-base-300">
+                  <input type="radio" name="my-accordion-1" defaultChecked />
+                  <div className="collapse-title font-semibold">Laboral</div>
+                  <div className="collapse-content text-sm">
+                    <p>Empresa</p>
+                    <p>Periodo</p>
+                    <p>Actividades</p>
+                  </div>
+                </div>
+
+                <div className="collapse bg-base-100 border border-base-300 h-64 overflow-y-auto">
+                  <input type="radio" name="my-accordion-1" />
+                  <div className="collapse-title font-semibold">
+                    Habilidades Técnicas
+                  </div>
+
+                  <div className="collapse-content text-sm flex flex-wrap  overflow-y-auto gap-4 justify-center">
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#html" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#css" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#java" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#js" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#tw" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#react" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#pg" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#mysql" />
+                    </svg>
+                    <svg className="aspect-square w-20 shrink-0">
+                      <use href="/assets/svg/sprite.svg#node" />
+                    </svg>
+                  </div>
+                </div>
+              </>
+            }
+          />
         </Section>
-        <Section id="skills">
-          <h1 className="m-auto text-center text-cyan-50">Skills</h1>
-        </Section>
+
         <Section id="projects">
           <h1 className="m-auto text-center text-cyan-50">Projects</h1>
         </Section>
