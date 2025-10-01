@@ -1,11 +1,24 @@
-
+// import Navbar from "./components/Navbar";
+import Principal from "./components/Principal";
 
 function App() {
   return (
-
-    <h1 className="text-9xl">Hello World</h1>
-  )
-  
+    // Componente para el header
+    // <>
+      // <Navbar />
+      <Principal />
+    
+  );
 }
 
-export default App
+export default App;
+
+// function App() {
+//   return (
+
+//     // Componente para el header
+//     <Navbar />
+//   )
+// }
+
+// export default App
