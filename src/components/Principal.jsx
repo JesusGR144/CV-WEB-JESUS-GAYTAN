@@ -160,10 +160,11 @@ function Principal() {
             title="Proyectos"
             cont={
               <>
+              
                 {/* Project */}
                 <Collapse
                   proyecto="Cotizador de prestamos - R"
-                  info="Landing page para un hotel de perros"
+                  info="TO BE CONTINUED..."
                   link="https://cotizador-prestamos-r.netlify.app"
                   elementos={
                     <>
@@ -176,7 +177,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Cotizador de prestamos - V"
-                  info="Landing page para un hotel de perros"
+                  info="TO BE CONTINUED..."
                   link="https://cotizador-prestamos-v.netlify.app"
                   elementos={
                     <>
@@ -189,7 +190,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Administrador de citas"
-                  info="Landing page para un hotel de perros"
+                  info="TO BE CONTINUED..."
                   link="https://admin-citas-poo.netlify.app"
                   elementos={
                     <>
@@ -203,7 +204,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Landing page (Agencia de Viajes)"
-                  info="Landing page para un hotel de perros"
+                  info="TO BE CONTINUED..."
                   link="https://agenciaviajesnode-i6a4.onrender.com/"
                   elementos={
                     <>
@@ -219,7 +220,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Landing page (Perroomies)"
-                  info="Landing page para un hotel de perros"
+                  info="TO BE CONTINUED..."
                   link="https://perroomiesleon.com/"
                   elementos={
                     <>
@@ -231,8 +232,8 @@ function Principal() {
                 {/* Fin Project */}
                 {/* Project */}
                 <Collapse
-                  proyecto="Carrito de compras"
-                  info="Carrito de compras"
+                  proyecto="TO BE CONTINUED..."
+                  info="TO BE CONTINUED..."
                   link="https://carrito-c.netlify.app"
                   elementos={
                     <>
@@ -245,8 +246,8 @@ function Principal() {
                 {/* Fin Project */}
                 {/* Project */}
                 <Collapse
-                  proyecto="Carrito de compras con LS"
-                  info="Carrito de compras"
+                  proyecto="TO BE CONTINUED... con LS"
+                  info="TO BE CONTINUED..."
                   link="https://carrito-local-storage.netlify.app"
                   elementos={
                     <>
@@ -260,7 +261,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Validación de formulario"
-                  info="Carrito de compras"
+                  info="TO BE CONTINUED..."
                   link="https://validacion-js.netlify.app"
                   elementos={
                     <>
@@ -274,7 +275,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Filtro dinámico"
-                  info="Carrito de compras"
+                  info="TO BE CONTINUED..."
                   link="https://filtro-dinamico-js.netlify.app"
                   elementos={
                     <>
@@ -289,7 +290,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Notas con Local Storage"
-                  info="Carrito de compras"
+                  info="TO BE CONTINUED..."
                   link="https://l-storage-js.netlify.app"
                   elementos={
                     <>
@@ -303,7 +304,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Cotizador de seguros"
-                  info="Carrito de compras"
+                  info="TO BE CONTINUED..."
                   link="https://cotizadors-seguros-js.netlify.app"
                   elementos={
                     <>
@@ -317,7 +318,7 @@ function Principal() {
                 {/* Project */}
                 <Collapse
                   proyecto="Gestor de gastos"
-                  info="Carrito de compras"
+                  info="TO BE CONTINUED..."
                   link="https://gestor-gastos-poo.netlify.app"
                   elementos={
                     <>
