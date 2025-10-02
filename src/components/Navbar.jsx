@@ -1,7 +1,17 @@
+import { useEffect } from 'react';
 import LinkH from "./LinkH";
 import cvPdf from "../assets/download/CV - José de Jesús Gaytán Ramírez.pdf";
 
 function Navbar() {
+  useEffect(() => {
+    // Importar e inicializar Preline después de que el componente se monte
+    import('preline/preline').then(() => {
+      if (window.HSStaticMethods) {
+        window.HSStaticMethods.autoInit();
+      }
+    });
+  }, []);
+
   return (
     <header className="fixed top-0 left-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 dark:bg-neutral-800 z-50 shadow-md shadow-cyan-400/50 rounded-b-4xl">
       <nav className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
