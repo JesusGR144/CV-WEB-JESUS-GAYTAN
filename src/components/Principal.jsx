@@ -122,31 +122,31 @@ function Principal() {
 
                   <div className="collapse-content text-sm flex flex-wrap overflow-y-auto gap-4 justify-center">
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#html" />
+                      <use href="./assets/svg/sprite.svg#html" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#css" />
+                      <use href="./assets/svg/sprite.svg#css" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#java" />
+                      <use href="./assets/svg/sprite.svg#java" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#js" />
+                      <use href="./assets/svg/sprite.svg#js" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#tw" />
+                      <use href="./assets/svg/sprite.svg#tw" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#react" />
+                      <use href="./assets/svg/sprite.svg#react" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#pg" />
+                      <use href="./assets/svg/sprite.svg#pg" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#mysql" />
+                      <use href="./assets/svg/sprite.svg#mysql" />
                     </svg>
                     <svg className="aspect-square w-20 shrink-0">
-                      <use href="/assets/svg/sprite.svg#node" />
+                      <use href="./assets/svg/sprite.svg#node" />
                     </svg>
                   </div>
                 </div>
