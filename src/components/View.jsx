@@ -5,7 +5,7 @@ function View({ title, cont}) {
         {title}
       </h1>
 
-      <div className="p-0 md:p-6 w-full">
+      <div className="p-0 md:p-6 w-full max-h-100 overflow-auto">
         {cont}
       </div>
     </div>
