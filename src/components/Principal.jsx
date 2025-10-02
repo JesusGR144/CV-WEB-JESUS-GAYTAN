@@ -8,7 +8,7 @@ function Principal() {
   return (
     <>
       <Navbar />
-      <main className="carousel rounded-box w-full h-dvh max-md:h-[95dvh]">
+      <main className="carousel rounded-box w-full h-dvh">
         <Section id="home">
           <div className="mask-[url(/assets/svg/perfil.svg#perfil)] mask-position-[center_top] mask-no-repeat mask-size-[contain] bg-[url(/assets/img/yo.webp)] bg-cover bg-[center_-20%] bg-no-repeat aspect-square w-full max-w-[80dvh] h-[80dvh]  max-xl:max-w-[50dvh] max-xl:h-[50dvh] max-md:max-w-[40dvh] max-md:h-[40dvh] max-md:self-center"></div>
           <div className="max-md:mt-4">
