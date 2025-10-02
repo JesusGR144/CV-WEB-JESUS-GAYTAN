@@ -10,7 +10,7 @@ export default defineConfig({
     tailwindcss(),    
     // preline()
   ],
-  base: '/CV-WEB-JESUS GAYTAN/'
+  base: '/CV-WEB-JESUS-GAYTAN/'
 })
 
 
