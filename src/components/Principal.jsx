@@ -163,6 +163,20 @@ function Principal() {
               
                 {/* Project */}
                 <Collapse
+                  proyecto="APV-ADMIN VET-MERN"
+                  info="Proyecto FullStack para administración de pacientes de una veterinaria"
+                  link="https://mern-admin-pacientes.netlify.app/"
+                  elementos={
+                    <>
+                      <Svg lenguaje="react" />
+                      <Svg lenguaje="tw" />
+                      <Svg lenguaje="node" />
+                    </>
+                  }
+                />
+                {/* Fin Project */}
+                {/* Project */}
+                <Collapse
                   proyecto="Cotizador de prestamos - R"
                   info="TO BE CONTINUED..."
                   link="https://cotizador-prestamos-r.netlify.app"
